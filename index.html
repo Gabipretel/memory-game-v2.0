@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Memory Game 😊😋🥰</title>
+</head>
+<body>
+    <main>
+        <section class="section1">
+        <h1>Memory Game 🤯</h1>
+        <!-- Creacion de la table con sus cuadrados(Celdas de tabla) y botones. Table 4x4 -->
+        <!-- A cada btn aplico una funcion para turn(girar) y le paso el id -->
+            <table>
+                <td><button id="0" onclick="turn(0)"></button></td>
+                <td><button id="1" onclick="turn(1)"></button></td>
+                <td><button id="2" onclick="turn(2)"></button></td>
+                <td><button id="3" onclick="turn(3)"></button></td>
+            </table>
+
+            <table>
+                <td><button id="4" onclick="turn(4)"></button></td>
+                <td><button id="5" onclick="turn(5)"></button></td>
+                <td><button id="6" onclick="turn(6)"></button></td>
+                <td><button id="7" onclick="turn(7)"></button></td>
+            </table>
+
+            <table>
+                <td><button id="8" onclick="turn(8)"></button></td>
+                <td><button id="9" onclick="turn(9)"></button></td>
+                <td><button id="10" onclick="turn(10)"></button></td>
+                <td><button id="11" onclick="turn(11)"></button></td>
+            </table>
+
+            <table>
+                <td><button id="12" onclick="turn(12)"></button></td>
+                <td><button id="13" onclick="turn(13)"></button></td>
+                <td><button id="14" onclick="turn(14)"></button></td>
+                <td><button id="15" onclick="turn(15)"></button></td>
+            </table>
+            
+        </section>
+        <!-- Aca van a ir los aciertos, tiempo y movimientos  -->
+        <section class="section2">
+                <h2 id="hits" class="statistics">Hits: 0</h2>
+                <h2 id="timer" class="statistics">Timer: 45 seconds</h2>
+                <h2 id="movements" class="statistics">Movements: 0</h2>
+        </section>
+        
+    </main>
+    <footer> Game programmed by <a target= "_blank" href="https://www.linkedin.com/in/gabriel-pretel-2ab1551b7/">Gabriel Pretel</a>💻 with 💛</footer>
+    <script src="index.js"></script>
+
+</body>
+</html>
